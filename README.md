@@ -21,15 +21,21 @@ This is my first serious app, so it’s likely to have bugs. Since it turned out
 
 Since this extension is not published on the Chrome Web Store, you must install it manually:
 
+**Method 1: Load Unpacked**
+
 - Download or clone this repository.
 - Open Google Chrome and go to chrome://extensions/.
 - Enable Developer mode (toggle in the top right corner).
 - Click Load unpacked.
 - Select the root folder of this project (the folder containing manifest.json).
 - The extension icon will appear in your browser toolbar. Pin it for easy access.
-- Navigate to a WRC club event page on Racenet.
 
-- Or simply drag the extracted folder into the plugins directory. (Be sure not to move the folder while using it.)
+**Method 2: Drag & Drop**
+
+- Extract the downloaded .zip file to a folder on your computer.
+- Simply drag and drop that folder into the Chrome extensions page (chrome://extensions/).
+(Be sure not to move or delete the folder while it is in use!)
+- Navigate to a WRC club event page on Racenet to start using it.
 
 ## 🚀 Usage
 
@@ -59,8 +65,14 @@ If you find this tool useful, you can support the development via Ko-fi.
 - English
 - Hungarian
 
-## ⚙️ Removal (if u don't like the add-on)
-- Easy, simple remove the extension from your browser and delete the addon extension folder (which you downloaded from here).
+## ⚙️ Removal
+
+If you don't like the add-on, removal is easy:
+
+- Go to chrome://extensions/.
+- Find the WRC Analyst Extension.
+- Click **Remove**.
+- You can now safely delete the downloaded extension folder from your computer.
 
 ## ✒️ Technologies
 
