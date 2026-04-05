@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "WRC Analyst Extension",
+  "version": "0.1",
+  "description": "Extraction and analysis of WRC data from Racenet club pages.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://racenet.com/ea_sports_wrc/clubs/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://racenet.com/ea_sports_wrc/clubs/*"],
+      "js": [
+        "translations.js",
+        "wrc-extension.js",
+        "wrc-analysis.js",
+        "wrc-csv.js"
+      ],
+      "css": ["wrc-extension.css"]
+    }
+  ]
+}
