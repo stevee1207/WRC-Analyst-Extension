@@ -5,9 +5,21 @@ An unofficial browser extension for extracting and analyzing multiplayer event d
 
 This is my first serious app, so it’s likely to have bugs. Since it turned out to be quite complex, I tried to simplify it as much as possible, but don’t expect any further updates from here on out. If you’re a fan of the WRC game, feel free to use it and have fun playing against your friends.
 
+## ✨ Samples (others in the sample_images folder)
+
+(Example: some brief analysis)
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/65023f41-5bba-47b7-90ae-351152bf0ffd" />
+
+(Example: multi-day CSV summary)
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/f949e629-03ea-4d3c-a292-9c99f9a7b862" />
+
 ## ⚠️ Limitation
 
-- Due to Racenet's DOM pagination structure, **this extension can only extract data for the first 20-21 participants per event stage directly from the page.** For complete event analysis involving all participants, please use the built-in Multi-Stage CSV Analyzer feature with exported data files.
+- Due to Racenet's DOM pagination structure, **this extension can only extract data for the first 20 participants per event stage directly from the page.** For complete event analysis involving all participants, please use the built-in Multi-Stage CSV Analyzer feature with exported data files.
+
+- **You can only analyze the data within a small group of acquaintances—a maximum of 20 people!** Ideal for groups of friends to **organize multi-day competitions** and **calculate final scores.**
 
 ## ✨ Features
 
