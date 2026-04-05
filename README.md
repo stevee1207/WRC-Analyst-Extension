@@ -68,7 +68,7 @@ This option great if you and your friend seperate a WRC event to more days!
 
 ## 💖 Support
 
-If you find this tool useful, you can support the development via Ko-fi.
+If you find this tool useful, you can support via Ko-fi.
 
 <a href='https://ko-fi.com/T6T71NZ3ZL' target='_blank'><img height='58' style='border:0px;height:58px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
