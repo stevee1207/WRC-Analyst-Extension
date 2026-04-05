@@ -3,7 +3,7 @@
 WRC Analyst Extension
 An unofficial browser extension for extracting and analyzing multiplayer event data from EA Sports WRC club pages on Racenet.
 
-This is my first serious app, so it’s likely to have bugs. Since it turned out to be quite complex, I tried to simplify it as much as possible, but don’t expect any further updates from here on out. If you’re a fan of the WRC game, feel free to use it and have fun playing against your friends.
+This is my first "application", so it’s likely to have bugs... Since it turned out to be quite complex, I tried to simplify it as much as possible, but don’t expect any further updates from here on out. If you’re a fan of the WRC game, feel free to use it and have fun playing against your friends.
 
 ## ✨ Samples (others in the sample_images folder)
 
