@@ -40,3 +40,4 @@ Chrome Extension Manifest V3
 
 Support
 If you find this tool useful, you can support the development via Ko-fi.
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'T6T71NZ3ZL');kofiwidget2.draw();</script> 
