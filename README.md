@@ -3,17 +3,19 @@
 WRC Analyst Extension
 An unofficial browser extension for extracting and analyzing multiplayer event data from EA Sports WRC club pages on Racenet.
 
-## ⚠️ Important Limitation
+This is my first serious app, so it’s likely to have bugs. Since it turned out to be quite complex, I tried to simplify it as much as possible, but don’t expect any further updates from here on out. If you’re a fan of the WRC game, feel free to use it and have fun playing against your friends.
 
-- Due to Racenet's DOM pagination structure, this extension can only extract data for the first 20-21 participants per event stage directly from the page. For complete event analysis involving all participants, please use the built-in Multi-Stage CSV Analyzer feature with exported data files.
+## ⚠️ Limitation
+
+- Due to Racenet's DOM pagination structure, **this extension can only extract data for the first 20-21 participants per event stage directly from the page.** For complete event analysis involving all participants, please use the built-in Multi-Stage CSV Analyzer feature with exported data files.
 
 ## ✨ Features
 
-- Direct Data Extraction: Extracts stage and overall times from Racenet club pages.
-- Interactive SVG Charts: Performance trends, consistency ratings, pace evolution, and car comparisons without external dependencies.
-- Multi-Stage CSV Analyzer: Upload multiple CSV files to calculate combined total times and differences.
-- Bilingual UI: Fully translated English and Hungarian interface (English by default).
-- Data Export: Download extracted data as a structured .json file.
+- **Direct Data Extraction:** Extracts stage and overall times from Racenet club pages.
+- **Interactive SVG Charts:** Performance trends, consistency ratings, pace evolution, and car comparisons without external dependencies.
+- **Multi-Stage CSV Analyzer:** Upload multiple CSV files to calculate combined total times and differences.
+- **Bilingual UI:** Fully translated English and Hungarian interface (English by default).
+- **Data Export:** Download extracted data as a structured .json file if you want to use elswhere.
 
 ## 📦 Installation (Developer Mode)
 
@@ -25,7 +27,9 @@ Since this extension is not published on the Chrome Web Store, you must install 
 - Click Load unpacked.
 - Select the root folder of this project (the folder containing manifest.json).
 - The extension icon will appear in your browser toolbar. Pin it for easy access.
-- Navigate to a WRC club event page on Racenet and click the icon.
+- Navigate to a WRC club event page on Racenet.
+
+- Or simply drag the extracted folder into the plugins directory. (Be sure not to move the folder while using it.)
 
 ## 🚀 Usage
 
@@ -55,9 +59,15 @@ If you find this tool useful, you can support the development via Ko-fi.
 - English
 - Hungarian
 
+## ⚙️ Removal (if u don't like the add-on)
+- Easy, simple remove the extension from your browser and delete the addon extension folder (which you downloaded from here).
+
 ## ✒️ Technologies
 
 - Vanilla JavaScript (No frameworks)
 - SVG based custom charts (No external charting libraries like Chart.js)
 - Chrome Extension Manifest V3
 
+![Chrome Version](https://img.shields.io/badge/Chrome-Manifest%20V3-brightgreen)
+![Language](https://img.shields.io/badge/Language-Javascript-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
