@@ -31,7 +31,7 @@ This is my first "application", so it’s likely to have bugs... Since it turned
 
 ## 📦 Installation (Developer Mode)
 
-**Download from the release page:** [Releases page](/WRC-Analyst-Extension/releases/tag/v0.1)
+**Download from the release page:** [Releases page](https://github.com/stevee1207/WRC-Analyst-Extension/releases/tag/v0.1)
 
 Since this extension is not published on the Chrome Web Store, you must install it manually:
 
